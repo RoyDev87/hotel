@@ -24,7 +24,7 @@
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href="index.html"><img src="./img/Logo.png" alt="#" /></a>
+                                    <a href="index.html"><img src="{% static 'veranumapp/img/logo.png' %}" alt="logo" /></a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                         <a class="nav-link" href="#contact">Contactanos</a>
                                     </li>
                                 </ul>
-                                <div class="sign_btn"><a href="#">Ingresar</a></div>
+                                <div class="sign_btn"><a href="/Login Veranum/login.html">Ingresar</a></div>
                             </div>
                         </nav>
                     </div>
@@ -66,7 +66,7 @@
                             <p>La elegancia se fusiona con la excelencia para crear una experiencia inolvidable que trasciende las expectativas. Cada
                                 momento se convierte en un recuerdo imborrable, cada huésped es atendido con devoción y cada detalle es cuidado con
                                 pasión. Bienvenido a un mundo de extraordinaria hospitalidad.</p>
-                            <a href="#Alojamiento">Ver más</a>
+                            <a class="read_more" href="#Alojamiento">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -128,17 +128,17 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="img_box">
-                                <figure><img src="./img/servicio6.jpg" alt="#" /></figure>
+                                <figure><img src="{% static 'veranumapp/img/servicio1.jpg' %}" alt="servicio1" /></figure>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="img_box">
-                                <figure><img src="./img/servicio2.jpg" alt="#" /></figure>
+                                <figure><img src="{% static 'veranumapp/img/servicio2.jpg' %}" alt="servicio2" /></figure>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="img_box">
-                                <figure><img src="./img/servicio3.jpg" alt="#" /></figure>
+                                <figure><img src="{% static 'veranumapp/img/servicio3.jpg' %}" alt="servicio3" /></figure>
                             </div>
                         </div>
                     </div>
@@ -158,13 +158,13 @@
                         <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active carrusel-img" data-bs-interval="3000">
-                                    <img src="./img/comida1.jpg" class="d-block" alt="comida1">
+                                    <img src="{% static 'veranumapp/img/comida1.jpg' %}" class="d-block" alt="comida1">
                                 </div>
                                 <div class="carousel-item carrusel-img" data-bs-interval="3000">
-                                    <img src="./img/comida2.jpg" class="d-block" alt="comida2">
+                                    <img src="{% static 'veranumapp/img/comida2.jpg' %}" class="d-block" alt="comida2">
                                 </div>
                                 <div class="carousel-item carrusel-img" data-bs-interval="3000">
-                                    <img src="./img/comida3.jpg" class="d-block" alt="comida3">
+                                    <img src="{% static 'veranumapp/img/comida3.jpg' %}" class="d-block" alt="comida3">
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,8 @@
                 </div>
                 <div class="col-md-6 video-edit">
                     <video width="550" controls muted autoplay>
-                        <source src="./video/video.mp4" type="video/mp4">
+                        <source src="{% static 'veranumapp/video/video.mp4' %}" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
                     </video>
                 </div>
             </div>
