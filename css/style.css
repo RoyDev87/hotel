@@ -23,43 +23,6 @@ body {
      font-weight: normal;
 }
 
-/* ****************** EFECTO LOADER ********************* */
-
-/* .loader-wrapper {
-     width: 60px;
-     height: 60px;
-}
-
-.loader {
-     box-sizing: border-box;
-     width: 100%;
-     height: 100%;
-     border: 10px solid #666666;
-     border-top-color: #eec237;
-     border-bottom-color: #d7530a;
-     border-radius: 50%;
-     animation: rotate 5s linear infinite;
-}
-
-.loader-inner {
-     border-top-color: rgb(98, 18, 129);
-     border-bottom-color: #fff;
-     animation-duration: 2.5s;
-}
-
-@keyframes rotate {
-     0% {
-          transform: scale(1) rotate(360deg);
-     }
-
-     50% {
-          transform: scale(.8) rotate(-360deg);
-     }
-
-     100% {
-          transform: scale(1) rotate(360deg);
-     }
-} */
 
 a {
      color: #1f1f1f;
@@ -135,7 +98,10 @@ button:focus {
      outline: none;
 }
 
+
 /* *************** EFECTO BLUR MENU ***************** */
+
+
 ul {
      display: flex;
      gap: 2.5rem;
@@ -369,7 +335,7 @@ button {
 /* ************** SECCION BANNER **************** */
 
 .banner_main {
-     background: linear-gradient(rgba(7, 2, 54, 0.500), rgba(0, 0, 0, 0.637)), url(../img/banner2.jpg);
+     background: linear-gradient(rgba(7, 2, 54, 0.500), rgba(0, 0, 0, 0.637)), url(../imagen/banner2.jpg);
      background-repeat: no-repeat;
      min-height: 700px;
      display: flex;
@@ -784,4 +750,10 @@ button {
 
 .copyright a:hover {
      color: #eec237;
+}
+
+.user_login {
+     text-transform: uppercase;
+     color: white
+        
 }
